@@ -10,6 +10,6 @@ jobs:
       - name: Get code from repo
         uses: actions/checkout@v3
       - name: Install Go
-        uses: actions/setup-go
+        uses: actions/setup-go@v4
       - name: Run tests
         run: go test ./...
